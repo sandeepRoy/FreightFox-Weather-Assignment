@@ -29,4 +29,5 @@ public class Weather {
     private String will_it_snow;
     private String sky;
     private String uv;
+    private String pincode;
 }

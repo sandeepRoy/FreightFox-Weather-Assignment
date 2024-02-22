@@ -1,6 +1,8 @@
 package com.weather.services;
 
 import com.weather.constants.PincodeConstant;
+import com.weather.entities.Weather;
+import com.weather.repositories.WeatherRepository;
 import com.weather.responses.PincodeResponse;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
@@ -13,6 +15,9 @@ public class PincodeProcessingClient {
 
     @Autowired
     private WebClient pincodeClient;
+
+    @Autowired
+    private WeatherRepository weatherRepository;
 
     private static String apiKey = "d4411cf861msh50b89239c2bc9dbp1a1a6ajsn4bdc6987ce5e";
 
