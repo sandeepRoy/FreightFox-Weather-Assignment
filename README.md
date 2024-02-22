@@ -71,7 +71,7 @@ localhost:8080/swagger-ui/index.html
 #### 1. Get WeatherData and Save
 
 ```http
-  POST /weather/pincode_date
+  GET /weather/pincode_date
 ```
 
 | Parameter | Type     | Description                |
@@ -91,7 +91,7 @@ localhost:8080/swagger-ui/index.html
 
 The weather API used here is - https://app.swaggerhub.com/apis-docs/WeatherAPI.com/WeatherAPI/1.0.2#/APIs/history-weather
 
-This is an **unsubscribed plan** and is restricted to have historical data of past 7 days from current date. Please use a date within that range to avoid failure to fetch weather data.
+This is an **unsubscribed plan** and is restricted to have historical data of past 7 days from current date. Please use a date within that range to avoid failure to fetch weather data. Other API providers like Openweathermap, doesn't provides historical data API without premium plan.
 
 Valid date range for today, ```22nd Feb 2024 : 15th Feb 2024 to 21st Feb 2024```
 
