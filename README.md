@@ -1,5 +1,5 @@
 
-# FreightFox-Weather-Assignment 
+# Weather-Assignment 
 
 ## Requirements
 
