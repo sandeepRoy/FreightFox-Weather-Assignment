@@ -1,10 +1,14 @@
+> [!WARNING]
+> Submission Date : ${\color{green}22-02-2024}$
+> 
+> Status : ${\color{red}Ghosted}$
+
 # Company - FrieghtFox, Pune
 
-# Result - Ghosted
 
-# Weather-Assignment 
+## Weather-Assignment 
 
-## Requirements
+### Requirements
 
 Backend Assignment - Weather Info for Pincode
 
